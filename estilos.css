@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #fef7f9; color: #333; line-height: 1.6; }
+nav { background: #9c27b0; padding: 15px; text-align: center; position: fixed; width: 100%; top: 0; z-index: 100; }
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { color: #f8bbd9; }
+.inicio { background: linear-gradient(135deg, #9c27b0, #e91e63); color: white; padding: 120px 20px 80px; text-align: center; }
+.inicio h1 { font-size: 2rem; margin-bottom: 15px; }
+.boton { display: inline-block; background: white; color: #9c27b0; padding: 12px 30px; margin-top: 20px; border-radius: 30px; font-weight: bold; text-decoration: none; }
+.boton:hover { transform: scale(1.05); }
+.seccion { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+.seccion h2 { color: #9c27b0; text-align: center; margin-bottom: 30px; border-bottom: 2px solid #f8bbd9; padding-bottom: 10px; }
+.tarjeta { background: white; padding: 25px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.tarjeta h3 { color: #e91e63; margin-bottom: 10px; }
+.lista-habilidades { list-style: none; }
+.lista-habilidades li { background: white; margin: 10px 0; padding: 15px; border-radius: 8px; border-left: 4px solid #9c27b0; }
+footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 20px; }
